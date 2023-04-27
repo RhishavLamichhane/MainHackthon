@@ -265,46 +265,77 @@ nav .content .links{
 .dummy-text{
   position: absolute;
   top: 50%;
-  left: 30%;
-  width: 40%;
+  left: 50%;
+  width: 60%;
   z-index: -1;
   padding: 0 20px;
   text-align: justify;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 .dummy-text h2{
-  font-size: 50px;
+  font-size: 70px;
   margin: 5px 0;
   color: white;
 }
 .dummy-text h3{
-        font-size: 15px;
+        font-size: 18px;
         color:aqua;
+}
+.fir
+{
+        display: flex;
+        justify-content: center;
 }
 body
 {
-        background-image: url(Green\ Organic\ Warm\ Food\ and\ Restaurant\ Bio-Link\ Website\ copy.png);
+        background: rgba(0,0,0,0.5)url(Bg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
+        background-blend-mode: darken;
 }
-.sign
+.sign1
 {
         display: block;
         padding: 5px;
-        color: #fff;
+        color: #000000;
         text-decoration: none;
         font-size: 30px;
         font-weight: bold;
         letter-spacing: 2.5px;
         text-transform: uppercase;
-        background-color: #323c4e;
+        background-color: #ffffff;
         width: 300px;
         text-align: center;
         margin: 10px;
         margin-top: 30px;
         border-radius: 5px;
+        border: 5px solid rgb(255, 255, 255);
+}
+.sign1:hover
+{
+        background-color: aqua;
+        color: black;
+}
+.sign
+{
+        display: block;
+        padding: 5px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        background-color: #00000000;
+        width: 300px;
+        text-align: center;
+        margin: 10px;
+        margin-top: 30px;
+        border-radius: 5px;
+        border: 5px solid rgb(255, 255, 255);
 }
 .sign:hover
 {

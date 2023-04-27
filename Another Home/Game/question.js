@@ -2,70 +2,114 @@
 let questions = [
         {
         numb: 1,
-        question: "What does HTML stand for?",
-        answer: "Hyper Text Markup Language",
+        question: "What is the term for the amount of money that a borrower owes to a lender?",
+        answer: "Debt",
         options: [
-          "Hyper Text Preprocessor",
-          "Hyper Text Markup Language",
-          "Hyper Text Multiple Language",
-          "Hyper Tool Multi Language"
+          "Credit",
+          "Equality",
+          "Debt",
+          "Investment"
         ]
       },
         {
         numb: 2,
-        question: "What does CSS stand for?",
-        answer: "Cascading Style Sheet",
+        question: "What is the difference between a debit card and a credit card?",
+        answer: "A debit card allows you to spend money you already have in your bank account, while a credit card allows you to borrow money that you'll have to pay back later with interest.",
         options: [
-          "Common Style Sheet",
-          "Colorful Style Sheet",
-          "Computer Style Sheet",
-          "Cascading Style Sheet"
+          "A debit card allows you to spend money you already have in your bank account, while a credit card allows you to borrow money that you'll have to pay back later with interest.",
+          "A debit card allows you to spend money you already have in your bank account, while a credit card allows you to borrow money that you'll have to pay back later with interest.",
+          "A debit card and a credit card are the same thing.",
+          "A debit card is a type of loan, while a credit card allows you to spend money you already have in your bank account."
         ]
       },
         {
         numb: 3,
-        question: "What does PHP stand for?",
-        answer: "Hypertext Preprocessor",
+        question: "What is the term for the percentage of interest that a lender charges on a loan?",
+        answer: "Interest rate",
         options: [
-          "Hypertext Preprocessor",
-          "Hypertext Programming",
-          "Hypertext Preprogramming",
-          "Hometext Preprocessor"
+          " Dividend",
+          "Yield",
+          "Interest rate",
+          "Coupon rate"
         ]
       },
         {
         numb: 4,
-        question: "What does SQL stand for?",
-        answer: "Structured Query Language",
+        question: "What is the term for a financial institution that accepts deposits from customers and provides loans?",
+        answer: "Bank",
         options: [
-          "Stylish Question Language",
-          "Stylesheet Query Language",
-          "Statement Question Language",
-          "Structured Query Language"
+          "Insurance company",
+          "Credit union",
+          "Bank",
+          "Investment firm"
         ]
       },
         {
         numb: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        question: "What is the name of the government agency responsible for regulating banks and other financial institutions in Nepal?",
+        answer: "Nepal Rastra Bank (NRB)",
         options: [
-          "eXtensible Markup Language",
-          "eXecutable Multiple Language",
-          "eXTra Multi-Program Language",
-          "eXamine Multiple Language"
+          "Private Placement",
+          "Initial Public Offering (IPO)",
+          "Nepal Rastra Bank (NRB)",
+          "Department of the Treasury"
         ]
       },
       {
            numb: 6,
-           question: "Your Question is Here",
-           answer: "Option 1",
+           question: "What is the term for the amount of money that an investor puts into a company in exchange for ownership?",
+           answer: "Equity",
            options: [
-             "Option 1",
-             "option 2",
-             "option 3",
-             "option 4"
+             "Interest",
+             "Dividend",
+             "Capital gains",
+             "Equity"
            ]
          },
+         {
+                numb: 7,
+                question: "What is the term for a diversified portfolio of investments designed to maximize returns and minimize risk?",
+                answer: "Mutual Fund",
+                options: [
+                  "Mutual Fund",
+                  "Hedge Fund",
+                  "Pension",
+                  "Index Fund"
+                ]
+              },
+              {
+                numb: 8,
+                question: "What is the name of the process by which a company goes public and offers shares of stock for sale to the public?",
+                answer: "Initial Public Offering(IPO)",
+                options: [
+                  "Secondary Offering",
+                  "Private Placement",
+                  "Initial Public Offering(IPO)",
+                  "Buyback"
+                ]
+              },
+              {
+                numb: 9,
+                question: "What is the name of the financial statement that shows a company's revenues, expenses, and profits over a period of time?",
+                answer: "Income Statement",
+                options: [
+                  "Balance Sheet",
+                  "Cash Flow Statement",
+                  "Statement of retained earnings",
+                  "Income Statement"
+                ]
+              },
+              {
+                numb: 10,
+                question: "What is the term for the total value of all goods and services produced in a country in a given year?",
+                answer: "Gross domestic product (GDP)",
+                options: [
+                  "Gross domestic product (GDP)",
+                  "Consumer price index (CPI)",
+                  "Inflation rate",
+                  "National income"
+                ]
+              },
 
 
       // you can uncomment the below codes and make duplicate as more as you want to add question
