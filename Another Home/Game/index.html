@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Quiz App | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+        <div class="wrapper">
+                <nav>
+                  <input type="checkbox" id="show-search">
+                  <input type="checkbox" id="show-menu">
+                  <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                  <div class="logo"><img src="logo.png" alt=""><a href="#">Youth NIMB</a></div>
+                  <div class="content">
+                  
+                    <ul class="links">
+                      <li><a href="index.html">Home</a></li>
+                      <li>
+                        <a href="#" class="desktop-link">Services</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">Services</label>
+                        <ul>
+                          <li><a href="./Credit/credit.html">Credit Card</a></li>
+                          <li><a href="./ATM/atm.html">ATM / Debit Card</a></li>
+                          <li><a href="./Services/index.html">Travel Card</a></li>
+                        </ul>
+                      </li>
+            
+                      <li>
+                        <a href="#" class="desktop-link">Info</a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">Info</label>
+                        <ul>
+                          <li><a href="./info/saving.html">Saving Account</a></li>
+                          <li><a href="./info/fixed.html">Fixed Account</a></li>
+                          <li><a href="./info/current.html">Current Account</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Game</a></li>
+                    </ul>
+                  </div>
+                  
+            
+                    <div class="profile-dropdown">
+                      <div onclick="toggle()" class="profile-dropdown-btn">
+                        <div class="profile-img">
+                          <i class="fa-solid fa-circle"></i>
+                        </div>
+              
+                        <span
+                          >Victoria
+                          <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                      </div>
+              
+                      <ul class="profile-dropdown-list">
+                        <li class="profile-dropdown-list-item">
+                          <a href="#">
+                            <i class="fa-regular fa-user"></i>
+                            Edit Profile
+                          </a>
+                        </li>
+              
+                        <li class="profile-dropdown-list-item">
+                          <a href="#">
+                            <i class="fa-regular fa-envelope"></i>
+                            Inbox
+                          </a>
+                        </li>
+              
+                        <li class="profile-dropdown-list-item">
+                          <a href="#">
+                            <i class="fa-solid fa-chart-line"></i>
+                            Analytics
+                          </a>
+                        </li>
+              
+                        <li class="profile-dropdown-list-item">
+                          <a href="#">
+                            <i class="fa-solid fa-sliders"></i>
+                            Settings
+                          </a>
+                        </li>
+              
+                        <li class="profile-dropdown-list-item">
+                          <a href="#">
+                            <i class="fa-regular fa-circle-question"></i>
+                            Help & Support
+                          </a>
+                        </li>
+                        <hr />
+              
+                        <li class="profile-dropdown-list-item">
+                          <a href="../index.html">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            Log out
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+              
+                  <script src="java.js"></script>
+              </div>
+
+
+
+
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="question.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="script.js"></script>
+
+
+    <script>
+        
+
+        let profileDropdownList = document.querySelector(".profile-dropdown-list");
+        let btn = document.querySelector(".profile-dropdown-btn");
+        
+        let classList = profileDropdownList.classList;
+        
+        const toggle = () => classList.toggle("active");
+        
+        window.addEventListener("click", function (e) {
+          if (!btn.contains(e.target)) classList.remove("active");
+        });
+        </script>
+
+</body>
+</html>
+</html>
