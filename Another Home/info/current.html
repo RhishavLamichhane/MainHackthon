@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="saving.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+        
+</head>
+<body>
+        <div class="wrapper">
+                <nav>
+                  <input type="checkbox" id="show-search">
+                  <input type="checkbox" id="show-menu">
+                  <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                  <div class="logo"><img src="logo.png" alt=""><a href="#">Youth NIMB</a></div>
+                  <div class="content">
+                  
+                    <ul class="links">
+                      <li><a href="index.html">Home</a></li>
+                      <li>
+                        <a href="#" class="desktop-link">Services</a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">Services</label>
+                        <ul>
+                          <li><a href="../Credit/credit.html">Credit Card</a></li>
+                          <li><a href="../ATM/atm.html">ATM / Debit Card</a></li>
+                          <li><a href="../Services/index.html">Travel Card</a></li>
+                        </ul>
+                      </li>
+            
+                      <li>
+                        <a href="#" class="desktop-link">Info</a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">Info</label>
+                        <ul>
+                          <li><a href="../info/saving.html">Saving Account</a></li>
+                          <li><a href="../info/fixed.html">Fixed Account</a></li>
+                          <li><a href="../info/current.html">Current Account</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Game</a></li>
+                    </ul>
+                  </div>
+                  
+            
+                    <div class="profile-dropdown">
+                      <div onclick="toggle()" class="profile-dropdown-btn">
+                        <div class="profile-img">
+                          <i class="fa-solid fa-circle"></i>
+                        </div>
+              
+                        <span
+                          >Victoria
+                          <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                      </div>
+              
+                      <ul class="profile-dropdown-list">
+                        <li class="profile-dropdown-list-item">
+                          <a href="#">
+                            <i class="fa-regular fa-user"></i>
+                            Edit Profile
+                          </a>
+                        </li>
+              
+                        <li class="profile-dropdown-list-item">
+                          <a href="#">
+                            <i class="fa-regular fa-envelope"></i>
+                            Inbox
+                          </a>
+                        </li>
+              
+                        <li class="profile-dropdown-list-item">
+                          <a href="#">
+                            <i class="fa-solid fa-chart-line"></i>
+                            Analytics
+                          </a>
+                        </li>
+              
+                        <li class="profile-dropdown-list-item">
+                          <a href="#">
+                            <i class="fa-solid fa-sliders"></i>
+                            Settings
+                          </a>
+                        </li>
+              
+                        <li class="profile-dropdown-list-item">
+                          <a href="#">
+                            <i class="fa-regular fa-circle-question"></i>
+                            Help & Support
+                          </a>
+                        </li>
+                        <hr />
+              
+                        <li class="profile-dropdown-list-item">
+                          <a href="../index.html">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            Log out
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+              
+                  <script src="java.js"></script>
+              </div>
+
+<br><br><br>
+<img src="df.png" alt="" width="100%">
+</div>
+<br>
+<center>
+<div class="main">
+        <h1>Current account</h1><br><br>
+        <h2> <img src="card.png" alt="" width="200px" class="r3"> Current Account is designed for young people to learn about money management from a young age without putting them at risk of getting in debt. Although most young people may not find current accounts to be the most useful sort of bank account, they might be important in particular circumstances involving frequent transactions or commercial operations. Before opening a current account, make sure it fits with the child's financial requirements and aspirations by carefully weighing its advantages and potential disadvantages.
+        </h2>
+                <br><br>
+        
+</div></center>
+
+</div>
+<script>
+        
+
+        let profileDropdownList = document.querySelector(".profile-dropdown-list");
+        let btn = document.querySelector(".profile-dropdown-btn");
+        
+        let classList = profileDropdownList.classList;
+        
+        const toggle = () => classList.toggle("active");
+        
+        window.addEventListener("click", function (e) {
+          if (!btn.contains(e.target)) classList.remove("active");
+        });
+        </script>
+
+    
+</body>
+</html>
