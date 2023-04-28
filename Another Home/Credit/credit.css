@@ -9,9 +9,21 @@
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
       }
-.main
+
+      body
+      {
+              background: rgba(0,0,0,0.7)url(https://c4.wallpaperflare.com/wallpaper/575/256/26/alabama-hills-4k-download-wallpaper-preview.jpg);
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-position: center;
+              background-blend-mode: darken;
+              color: white;
+      }
+      
+      .main
 {
-        width: 75%;
+        width: 80%;
         text-align: justify;
 }
 .main h1
@@ -23,8 +35,8 @@
 .main h2
 {
         font-family: 'Kaushan Script', cursive;
-        font-size: 40px;
-        line-height: 88px;
+        font-size: 20px;
+        line-height: 40px;
 }
 .r1
 {
