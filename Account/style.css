@@ -45,7 +45,7 @@ body{
 }
 
 .wrapper .form .inputfield label{
-   width: 200px;
+   width: 210px;
    color: #ffffff;
    margin-right: 10px;
   font-size: 14px;
@@ -61,6 +61,7 @@ body{
   border-radius: 3px;
   transition: all 0.3s ease;
   background-color: #000000;
+  color: white;
 }
 
 .wrapper .form .inputfield .textarea{
