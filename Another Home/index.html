@@ -130,8 +130,7 @@
         <div class="container">
                 <div class="buttons">
                         <button id="btn_diva">
-                                Account
-                        </button>
+                                Account                        </button>
                         
                         <button id="btn_divb">Transactions</button>
                         <button id="btn_divc">History</button>
@@ -233,12 +232,13 @@
                         </div>
                         <div class="rew1">
                                 <h2>Free Laptop Bag</h2>
-                                <h3>300pts required</h3>
+                                <h4>200pts required</h3>
                                 <button>Claim</button>
                         </div>
                         <div class="rew1">
-                                <h2>TopUp for NTC Namaste - 9864332423</h2>
-                                <h3>06 : 09 PM</h3>
+                                <h2>Free Gaming Mouse</h2>
+                                <h4>350pts required</h4>
+                                <button>Claim</button>
                         </div>
                 </div>
                 </div>  
@@ -290,7 +290,6 @@ btn_divd.addEventListener('click', ()=>{
 
 
 
-
 <script>
         function showForm() {
           // Create a new window with the form
@@ -301,8 +300,8 @@ btn_divd.addEventListener('click', ()=>{
           formWindow.document.write("<form>");
           formWindow.document.write("<label for='name'>Phone Number:</label>");
           formWindow.document.write("<input type='Number' id='name' name='name'>");
-          formWindow.document.write("<label for='email'>Pin Code</label>");
-          formWindow.document.write("<input type='number' id='email' name='email'>");
+          formWindow.document.write("<label for='password'>MPIN</label>");
+          formWindow.document.write("<input type='password' id='email' name='email' maxlength='4'>");
           formWindow.document.write("<br><br>")
           formWindow.document.write("<input type='submit' value='Submit'>");
           formWindow.document.write("</form>");
@@ -312,7 +311,7 @@ btn_divd.addEventListener('click', ()=>{
           var css = "/* Styles for the form */\n";
           css += "form { display: flex; flex-direction: column; align-items: center; margin-top: 20px; font-size: 16px; font-family: Arial, sans-serif; }\n";
           css += "label { margin-bottom: 10px; text-align: left; width: 100%; }\n";
-          css += "input[type='number'], input[type='email'] { padding: 10px; border-radius: 4px; border: 1px solid #ccc; width: 100%; margin-bottom: 20px; }\n";
+          css += "input[type='number'], input[type='password'] { padding: 10px; border-radius: 4px; border: 1px solid #ccc; width: 100%; margin-bottom: 20px; }\n";
           css += "h1{font-family: 'Kaushan Script', cursive;}"
           css += "@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');"
           css += "input[type='submit'] { background-color: #4CAF50; color: white; padding: 10px; border: none; border-radius: 4px; cursor: pointer; width: 200px; font-size: 25px;}\n";
