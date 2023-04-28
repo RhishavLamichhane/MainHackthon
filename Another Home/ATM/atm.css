@@ -11,61 +11,73 @@
       }
 
 
-      /* width */
-::-webkit-scrollbar {
-        width: 4px;
+      body
+      {
+              background: rgba(0,0,0,0.5)url(https://wallpapercave.com/wp/wp8504441.jpg);
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-position: center;
+              background-blend-mode: darken;
+              color: white;
       }
       
-      /* Track */
-      ::-webkit-scrollbar-track {
-        background: #00ffee;
+            /* width */
+      ::-webkit-scrollbar {
+              width: 3px;
+            }
+            
+            /* Track */
+            ::-webkit-scrollbar-track {
+              background: #00ffee;
+            }
+            
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+              background: #ff0000;
+            }
+            
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+              background: #26ff00;
+            }
+            
+            
+      .main
+      {
+              width: 80%;
+              text-align: justify;
+      }
+      .main h1
+      {
+              text-align: center;
+              font-family: 'Kanit', sans-serif;
+              font-size: 60px;
+      }
+      .main h2
+      {
+              font-family: 'Kaushan Script', cursive;
+              font-size: 25px;
+              line-height: 45px;
+      }
+      .r1
+      {
+              float: left;
+              margin-right: 15px;
+      }
+      .r2
+      {
+              float: right;
+              margin-left: 15px;
+      }
+      .r3
+      {
+              float: right;
+              margin-left: 25px;
+              border-radius: 5px;
       }
       
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-        background: #ff0000;
-      }
       
-      /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
-        background: #26ff00;
-      }
-      
-      
-.main
-{
-        width: 75%;
-        text-align: justify;
-}
-.main h1
-{
-        text-align: center;
-        font-family: 'Kanit', sans-serif;
-        font-size: 60px;
-}
-.main h2
-{
-        font-family: 'Kaushan Script', cursive;
-        font-size: 40px;
-        line-height: 88px;
-}
-.r1
-{
-        float: left;
-        margin-right: 15px;
-}
-.r2
-{
-        float: right;
-        margin-left: 15px;
-}
-.r3
-{
-        float: right;
-        margin-left: 25px;
-        border-radius: 5px;
-}
-
 
 
 

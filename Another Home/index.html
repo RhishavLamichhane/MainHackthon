@@ -135,6 +135,7 @@
                         
                         <button id="btn_divb">Transactions</button>
                         <button id="btn_divc">History</button>
+                        <button id="btn_divd">Rewards</button>
                 </div>
                 <div class="blocks">
                 <div class="diva" id="diva">
@@ -202,22 +203,63 @@
                                 <h3>06 : 09 PM</h3>
                         </div>
                 </div>
+                </div>
+                <div class="divd" id="divd">
+                        <div class="rew">
+                                <h1>Rewards</h1>
+                                <h4>Points - 100pts</h4>
+                        </div>
+                        <div class="row1">
+                        <div class="rew1">
+                                <h2>Free Birthday Cake</h2>
+                                <h4>Requires 400pts</h4>
+                                <button>Claim</button>
+                        </div>
+                         <div class="rew1">
+                                <h2>Discount on TopUp</h2>
+                                <h4>Working</h4>
+                        </div>
+                        <div class="rew1">
+                                <h2>Upto 10% Cashback all Transactions</h2>
+                                <h4>250pts required</h4>
+                                <button>Claim</button>
+                        </div>
+                </div>
+                <div class="row2">
+                        <div class="rew1">
+                                <h2>Free ATM Card</h2>
+                                <h4>with Rs. 5000 per day limit / Working</h4>
+                                <button>Claim</button>
+                        </div>
+                        <div class="rew1">
+                                <h2>Free Laptop Bag</h2>
+                                <h3>300pts required</h3>
+                                <button>Claim</button>
+                        </div>
+                        <div class="rew1">
+                                <h2>TopUp for NTC Namaste - 9864332423</h2>
+                                <h3>06 : 09 PM</h3>
+                        </div>
+                </div>
                 </div>  
         </div>
         </div>
         <script>
 
-var btn_diva = document.getElementById("btn_diva");
+        var btn_diva = document.getElementById("btn_diva");
         var btn_divb = document.getElementById("btn_divb");
         var btn_divc = document.getElementById("btn_divc");
+        var btn_divd = document.getElementById("btn_divd");
         var diva = document.getElementById("diva");
         var divb = document.getElementById("divb");
         var divc = document.getElementById("divc");
+        var divd = document.getElementById("divd");
 
 btn_diva.addEventListener('click', ()=>{
         diva.style.display = 'block';
         divb.style.display = 'none';
         divc.style.display = 'none';
+        divd.style.display = 'none';
 });
 
 
@@ -226,12 +268,21 @@ btn_divb.addEventListener('click', ()=>{
         diva.style.display = 'none';
         divb.style.display = 'block';
         divc.style.display = 'none';
+        divd.style.display = 'none';
 });
 
 btn_divc.addEventListener('click', ()=>{
         diva.style.display = 'none';
         divb.style.display = 'none';
         divc.style.display = 'block';
+        divd.style.display = 'none';
+})
+
+btn_divd.addEventListener('click', ()=>{
+        diva.style.display = 'none';
+        divb.style.display = 'none';
+        divc.style.display = 'none';
+        divd.style.display = 'block';
 })
 
         </script>
